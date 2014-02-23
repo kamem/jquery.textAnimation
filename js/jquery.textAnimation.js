@@ -124,8 +124,8 @@ $.fn.textAnimation = function(options) {
 				translateZ: Math.random(),
 				speed: Math.random()
 			};
-                
-            //一文字ずつCSSを割り当てる
+
+			//一文字ずつCSSを割り当てる
 			$(this).css({
 				backgroundColor: backgroundColor,
 				transformStyle: 'preserve-3d',
