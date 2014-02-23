@@ -1,0 +1,7 @@
+{
+    "name": "jQuery textAnimation",
+    "description": "1文字づつテキストをアニメーションで表示するjQuery Plugin",
+    "options": {
+        "outdir": "yuidoc/"
+    }
+}

@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Montez);
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	background: #000;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}
+
+h1 {
+	padding: 0.5em;
+	color: #fff;
+	font-size: 20px;
+}
+
+textarea,.text,input,select {
+	font-family:ariel;
+	margin-top:0;
+	font-size:10px;
+	letter-spacing:0;
+}
+
+#info {
+	width:30%;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:10%;
+	overflow:auto;
+	background:rgba(0,0,0,0.8);
+}
+
+#info h2 {
+	margin:0 0 .5em;
+	padding:.5em;
+	font-size:14px;
+	color:#fff;
+	background:rgba(0,0,0,0.3);
+}
+
+#info dt,#info dd,#info p {
+	font-size:10px;
+	margin-bottom:.5em;
+	color:#fff;
+	list-style-type:none;
+}
+
+#info p,#info dl {
+	padding:0 5%;
+}
+
+#info dt {
+	margin-right:10%;
+	float:left;
+	width:30%;
+	clear:both;
+}
+
+#info dd {
+	float:left;
+	width:60%;
+}
+
+#info textarea,#info input {
+	width:100%;
+}
+
+.text1 {
+	font-family: 'Montez',cursive;
+	position:fixed;
+	width: 70%;
+	height: 80%;
+	top: 10%;
+	left: 30%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 10px
+}
+
+.text1 span {
+	font-size: 40px;
+}
+
+#code {
+	width:100%;
+	position:fixed;
+	left:30%;
+	bottom:0;
+	height:10%;
+	overflow:auto;
+	background:rgba(0,0,0,0.9);
+	color:#fff;
+	padding:.5em;
+}

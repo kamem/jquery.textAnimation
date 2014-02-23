@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*
++ Text
++ List
++ Others
+*/
+
+/*--------------------
+	font-size
+----------------------
+10px - 77%
+11px - 85%
+12px - 93%
+13px - 100%
+14px - 108%
+15px - 116%
+16px - 123.1%
+17px - 131%
+18px - 138.5%
+19px - 146.5%
+20px - 153.9%
+21px - 161.6%
+22px - 167%
+23px - 174%
+24px - 182%
+25px - 189%
+26px - 197%
+--------------------*/
+
+/* Don't Edit */
+body {font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+table {font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+	display: block;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-style: normal;
+	color: #000;
+	font-size: 14px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+/*--------------------
+	Text
+--------------------*/
+
+p {
+	font-weight: bold;
+}
+
+figure,figcaption {
+	font-weight: bold;
+}
+
+h1 {
+}
+
+
+h1 img {
+}
+
+h2 {
+}
+
+h3 {	
+}
+
+h4 {	
+}
+
+address {
+}
+
+/*--------------------
+	List
+--------------------*/
+
+li {
+	list-style-type: none;
+}
+a.bnr:hover {
+	
+}
+
+dt,
+dd {
+	font-weight: bold;
+}
+
+/* Opera Hack */
+html:first-child li,
+html:first-child dt,
+html:first-child dd {
+	font-size: 1em;
+}
+
+li li,
+li p,
+li pre,
+li dt,
+li dd,
+dd li,
+dd p,
+dd pre,
+dd dt,
+dd dd {
+	font-size: 100% !important;
+}
+
+li ul,
+li ol,
+li dl,
+li p,
+dd ul,
+dd ol,
+dd dl,
+dd p {
+
+}
+
+/*--------------------
+	link
+--------------------*/
+
+a {
+	color: #f70073;
+}
+
+/*--------------------
+	Others
+--------------------*/
+
+img {
+	border: none;
+}
+
+hr {
+	height: 1px;
+	border: 1px solid #fff;
+}
